@@ -14,6 +14,7 @@ const Input = () => {
   }
   function DisplayTextValue() {
     setDisplayText(textValue)
+    
   }
   return (
     <div className='h-96 '>
