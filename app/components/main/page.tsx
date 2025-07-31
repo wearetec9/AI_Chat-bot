@@ -1,13 +1,16 @@
 import React from 'react'
+import Input from './input/page'
+import Containers from './container/boxes/page'
 
-const page = () => {
+const Home = () => {
   return (
-    <div>
+    <div className=' h-[100vh]'>
       <div>
-        page
+        <Input></Input>
+        <Containers/>
       </div>
     </div>
   )
 }
 
-export default page
+export default Home
